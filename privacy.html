@@ -29,7 +29,7 @@
   <p class="subtitle">
     Éditeur : Massalia Digital — Marseille, France<br>
     Contact : <a href="mailto:massalia.digital@icloud.com">massalia.digital@icloud.com</a><br>
-    Dernière mise à jour : 1er mai 2026<br>
+    Dernière mise à jour : 1er mai 2026 (v2 — ajout données boutique publicités)<br>
     <a class="nav-link" href="./cgu">→ Consulter les Conditions Générales d'Utilisation</a>
   </p>
 
@@ -65,7 +65,9 @@
     <li>Choix de consentement RGPD et ATT</li>
     <li>Série de victoires consécutives en cours (streak actuel)</li>
     <li>Thème visuel sélectionné (apparence de l'interface choisie par le joueur)</li>
-    <li>Compteurs techniques internes nécessaires au bon fonctionnement du service (fréquence des publicités, état des fonctionnalités)</li>
+    <li>Compteur de publicités récompensées regardées depuis la boutique (remis à zéro chaque jour — stocké sous la clé <code>cs_shopAdCount</code>)</li>
+    <li>Date de référence associée à ce compteur, au format YYYY-MM-DD (stockée sous la clé <code>cs_shopAdDate</code>) — sert uniquement à détecter le changement de jour pour réinitialiser le compteur ci-dessus</li>
+    <li>Autres compteurs techniques internes nécessaires au bon fonctionnement du service (fréquence des publicités interstitielles, statut du suivi ATT/RGPD)</li>
   </ul>
 
   <h3>2.3 Données que nous ne collectons pas</h3>
